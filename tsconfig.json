@@ -15,6 +15,11 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "importHelpers": true,
+    "paths": {
+      "spartan-ui-component-lib": [
+        "./dist/spartan-ui-component-lib"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022"
   },
